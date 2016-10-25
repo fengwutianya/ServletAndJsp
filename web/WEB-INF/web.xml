@@ -3,5 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-
+<!--
+1.jsp
+2.servlet
+3.listener
+4.filter
+5.标签库
+6.jsp属性
+7.jaas授权认证
+8.资源引用
+9.web应用首页
+-->
+    <!-- 配置首页列表 -->
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
